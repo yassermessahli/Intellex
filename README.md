@@ -22,8 +22,8 @@ A **multi-agent** AI research assistant that automates deep research using artif
 - The core logic follows a map-reduce pattern, where analysts independently interview the experts in parallel in the "map" phase, then synthesize their individual findings into a single, comprehensive report in the "reduce" phase.
 - The entire process is powered by `Anthropic`'s language models.
 
-Reference image:<br>
-![workflow-graph](graph.png)
+`Graph`<br>
+![workflow-graph](https://raw.githubusercontent.com/yassermessahli/research-assistant/refs/heads/main/static/images/graph.png)
 
 ### ♾️ Quickstart
 
@@ -59,7 +59,8 @@ langgraph dev
 
 5. Once the server is running, the **LangGraph Studio** WebUI will open in the browser, and you can interact with it.
 
-![langgraph-studio](studio.png)
+`LangGraph Studio`<br>
+![langgraph-studio](https://raw.githubusercontent.com/yassermessahli/research-assistant/refs/heads/main/static/images/studio.png)
 
 I will appreciate
 
