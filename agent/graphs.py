@@ -1,3 +1,6 @@
+# The graphs module
+# Define your graphs here
+
 import states
 import nodes
 import routes

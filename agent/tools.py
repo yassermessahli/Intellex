@@ -1,4 +1,7 @@
-﻿from langchain_anthropic import ChatAnthropic
+﻿# The tools module
+# Define your tools here
+
+from langchain_anthropic import ChatAnthropic
 from langchain_community.document_loaders import WikipediaLoader
 from langchain_tavily import TavilySearch
 

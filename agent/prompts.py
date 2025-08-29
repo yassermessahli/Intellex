@@ -1,5 +1,5 @@
-﻿# Prompt templates for LangGraph-based research assistant agents. This module centralizes all reusable prompt strings used across the project
-
+﻿# The prompts module
+# Define your prompts templates here
 
 # Generate AI analyst personas from a topic and optional feedback
 GENERATE_ANALYSTS_PROMPT = """

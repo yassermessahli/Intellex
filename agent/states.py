@@ -1,4 +1,7 @@
-﻿from typing import Annotated, List
+﻿# The states module
+# Define your state schemas here
+
+from typing import Annotated, List
 from typing_extensions import TypedDict
 from utils import Analyst
 import operator

@@ -1,4 +1,7 @@
-﻿from pydantic import BaseModel, Field, computed_field
+﻿# The utils module
+# Define your utilities (if any) here
+
+from pydantic import BaseModel, Field, computed_field
 from typing import List
 
 

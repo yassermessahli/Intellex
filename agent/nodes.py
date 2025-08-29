@@ -1,4 +1,7 @@
-﻿from tools import model, tavily_search, WikipediaLoader
+﻿# The nodes module
+# Define your nodes here
+
+from tools import model, tavily_search, WikipediaLoader
 from utils import Perspectives, SearchQuery
 import prompts
 import states
