@@ -25,7 +25,7 @@ A **multi-agent** AI research assistant that automates deep research using artif
 `Graph`<br>
 ![workflow-graph](https://raw.githubusercontent.com/yassermessahli/research-assistant/refs/heads/main/static/images/graph.png)
 
-### ♾️ Quickstart
+## ♾️ Quickstart
 
 **Prerequisites**
 
