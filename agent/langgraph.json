@@ -1,0 +1,8 @@
+{
+  "python_version": "3.13",
+  "dependencies": ["."],
+  "env": "../.env",
+  "graphs": {
+    "research_assistant": "./graphs.py:research_graph"
+  }
+}
