@@ -1,29 +1,33 @@
-# ♾️ Research Assistant Agent
+# ♾️ Intellex
 
-> **🧠 Motivation**<br>
-> Have a **complex** topic for a deep search?<br>
-> Have **no time** managing multiple online sources?<br>
-> Want **minimal** search efforts?<br>
-> Search report redaction in a **minute**?<br>
-> Check this out! 👇
+> Intellex is a **multi-agent** AI research assistant that turns complex topics into clear, consolidated research reports. 
 
-A **multi-agent** AI research assistant that automates deep research using artificial `analysts` and `experts`. It simulates a team of domain analysts conducting **interviews** with virtual domain experts to produce a consolidated report on the given topic.
+> It automates deep research with artificial `analysts` and `experts`. It simulates a team of domain analysts conducting **interviews** with virtual domain experts to produce a consolidated Markdown report on the given topic.
+
+<br>
+
+![langgraph-studio](https://raw.githubusercontent.com/yassermessahli/research-assistant/refs/heads/main/static/images/studio.png)
+
+### ♾️ Features
+- **Parallel virtual analysts** simulated with Anthropic models
+- **Expert interviews** orchestration powered by LangGraph
+- **Markdown-ready final reports**  
+- Want to try? just **Plug-and-play** 
 
 ### ♾️ WorkFlow
 
-1. User provides a research topic and specifies the number of analysts.
-2. Generates a set of virtual analysts studying the topic.
-3. Each analyst conducts interviews with a virtual expert in that topic.
-4. The findings from each analyst are synthesized into a final report.
+1. Provide a research topic + number of analysts.  
+2. Intellex spawns analysts who each interview an expert.  
+3. Each analyst produces a mini-report.  
+4. Reports are merged into one consolidated Markdown file.  
+
+![workflow-graph](https://raw.githubusercontent.com/yassermessahli/research-assistant/refs/heads/main/static/images/graph.png)
 
 ### ♾️ Project Architecture
 
-- We used `LangGraph` to orchestrate the team of analysts and their interviews.
-- The core logic follows a map-reduce pattern, where analysts independently interview the experts in parallel in the "map" phase, then synthesize their individual findings into a single, comprehensive report in the "reduce" phase.
+- Using `LangGraph` to orchestrate the team of analysts and their interviews.
+- The core logic follows a Map-Reduce pattern, where analysts independently interview the experts in parallel in the "map" phase, then synthesize their individual findings into a single, comprehensive report in the "reduce" phase.
 - The entire process is powered by `Anthropic`'s language models.
-
-`Graph`<br>
-![workflow-graph](https://raw.githubusercontent.com/yassermessahli/research-assistant/refs/heads/main/static/images/graph.png)
 
 ## ♾️ Quickstart
 
@@ -59,12 +63,8 @@ langgraph dev
 
 5. Once the server is running, the **LangGraph Studio** WebUI will open in the browser, and you can interact with it.
 
-`LangGraph Studio`<br>
-![langgraph-studio](https://raw.githubusercontent.com/yassermessahli/research-assistant/refs/heads/main/static/images/studio.png)
+## 🤝 Contributing
 
-I will appreciate
+Feedback and PRs are welcome! Please open an issue before major changes. I am still working on it.
 
-- Your feedback
-- Your Contribution
-
-#### Happy Researching! 🧐
+**Happy Researching!** 🔍
